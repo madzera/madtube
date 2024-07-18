@@ -4,7 +4,7 @@ import 'dart:convert';
 
 import '../../model/video.dart';
 
-class SearchAPI {
+class VideoIntegration {
 
   Future<List<Video>> execute(String arg) async {
     List<Video> videos = [];
@@ -35,7 +35,7 @@ class SearchAPI {
       }
 
     } else {
-
+      //TODO
     }
     return videos;
   }
