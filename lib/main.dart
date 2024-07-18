@@ -4,6 +4,7 @@ import 'package:madtube/view/home.dart';
 
 void main() {
   runApp(const MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
   ));
 }

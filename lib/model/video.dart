@@ -12,9 +12,9 @@ class Video {
       _videoController = YoutubePlayerController(
         initialVideoId: _id,
         flags: const YoutubePlayerFlags(
-          mute: false,
+          mute: true,
           autoPlay: false,
-          disableDragSeek: false,
+          disableDragSeek: true,
           loop: false,
           isLive: false,
           forceHD: false,
